@@ -1,0 +1,44 @@
+﻿body{
+     height: 100vh;
+     background-color: rgb(196, 196, 196);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+main{
+     background-color: rgb(203, 222, 218);
+     border-radius: 30px;
+     border: 2px solid white;
+}
+
+#enterBtn{
+     border: 1px solid white;
+     border-radius: 10px;
+     color: white;
+     background-color: rgb(255, 176, 29);
+}
+
+#email,
+#name{
+     border: 2px solid white;
+     border-radius: 10px;
+}
+
+.green{
+     text-align: center;
+     padding: 1%;
+     border: 2px solid green;
+     border-radius: 10px;
+     background-color: rgba(138, 203, 138, 0.718);
+     color: green;
+}
+
+.red{
+     text-align: center;
+     padding: 1%;
+     border: 2px solid rgb(193, 0, 0);
+     border-radius: 10px;
+     background-color: rgba(203, 138, 138, 0.718);
+     color: rgb(193, 0, 0);
+}
